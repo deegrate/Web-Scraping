@@ -2,7 +2,7 @@ This is a simple Apify actor that serves as a basic boilerplate.
 It has a Node.js source code, custom Dockerfile and it's hosted in a Git repository.
 Feel free to copy this actor, modify it and use it in your own actors.
 
-Are you missing anything? Something not clear? Please let us know at support@apify.com
+
 
 To run the actor in your local environment, simply run the following commands:
 
@@ -76,7 +76,7 @@ For more information, see [Dockerfile reference](https://docs.docker.com/engine/
 Defines schema for the actor input. It is used by the Apify platform
 to automatically check the input for the actor and to generate
 a user interface to help users of your actor to run it.
-For more information, see [Input Schema documentation](https://apify.com/docs/actor/input-schema). 
+You can find more on Apify's site:[Input Schema documentation](https://apify.com/docs/actor/input-schema). 
 
 ## `main.js`
 
@@ -95,8 +95,7 @@ For details, see [NPM documentation](https://docs.npmjs.com/files/package.json).
 Contains a [Markdown](https://www.markdownguide.org/cheat-sheet)
 documentation what your actor does and how to use it,
 which is then displayed in the app or [library](https://apify.com/apify/quick-start).
-It's always a good idea to write a good README.md, in a few months not even you
-will remember all the details about the actor.
+
 
 ## `apify_storage`
 
